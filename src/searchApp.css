@@ -1,0 +1,23 @@
+.search-card{
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  background: linear-gradient(rgb(173, 114, 4), orange);
+  padding: 5%;
+}
+
+.search-card-head{
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.search-card-container{
+  width: 100%;
+}
+
+.search-card-placement{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 25px;
+    padding: 1%;
+}
