@@ -1,12 +1,10 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './App';
-import Search from './Search';
+import React from "react";
+import ReactDOM from "react-dom";
+import App from "./App";
 
 ReactDOM.render(
   <>
-    <Search />
+    <App />
   </>,
-  document.getElementById('root')
+  document.getElementById("root")
 );
-
